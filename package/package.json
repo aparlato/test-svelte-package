@@ -1,0 +1,19 @@
+{
+  "name": "test-svelte-package",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.44.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "svelte2tsx": "^0.5.8"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./App.svelte": "./App.svelte",
+    ".": "./index.js"
+  },
+  "svelte": "./index.js"
+}
